@@ -4,7 +4,7 @@ A modern, responsive React + Vite application that allows users to explore the S
 
 ---
 
-## 🚀 Features
+## Features
 
 - List and view detailed information about:
   - Characters (with homeworld & starships)
@@ -16,7 +16,7 @@ A modern, responsive React + Vite application that allows users to explore the S
 
 ---
 
-## 🛠️ Development
+## Development
 
 ```bash
 npm run dev
@@ -26,7 +26,7 @@ Visit: `http://localhost:5173`
 
 ---
 
-## 🏗️ Build
+## Build
 
 ```bash
 npm run build
