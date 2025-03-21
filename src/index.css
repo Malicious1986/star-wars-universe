@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body {
+  background-image: url("./assets/images/darkness.webp");
+  font-family: "Orbitron", sans-serif;
+}
