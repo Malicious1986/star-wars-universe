@@ -5,7 +5,6 @@ export function createMemoizedFetcher<F extends AnyFunction>(fetchFn: F) {
   const cache = new Map<string, Promise<ReturnType<F>>>();
 
   return (...args: Parameters<F>): Promise<ReturnType<F>> => {
-    // Stringify args to create a unique cache key
     const key = JSON.stringify(args);
 
     if (cache.has(key)) {
